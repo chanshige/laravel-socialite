@@ -1,0 +1,35 @@
+{
+    "name": "chanshige/laravel-socialite",
+    "description": "oauth authentication customized laravel/socialite wrapper.",
+    "keywords": [
+        "oauth",
+        "laravel"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shigeki Tanaka",
+            "email": "dev@shigeki.tokyo"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chanshige\\Laravel\\Socialite\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chanshige\\Laravel\\Socialite\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "laravel/socialite": "^4.3"
+    },
+    "require-dev": {
+        "illuminate/contracts": "^7.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^8.0"
+    }
+}
